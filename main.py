@@ -113,7 +113,6 @@ def fun1():
     parser=English()
     sentence=nlp(sentence)
     mytokens = parser(sentence)
-   
     print([word.lemma_ for word in mytokens])
     mytokens = [ word.lemma_.lower().strip() if word.lemma_ != "-PRON-" else word.lower_ for word in mytokens ]
     print(mytokens)
@@ -132,4 +131,4 @@ def fun1():
     
 
 if __name__ == '__main__':
-    app.run(port="8081")
+    app.run()
