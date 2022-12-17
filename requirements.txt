@@ -37,6 +37,7 @@ Werkzeug==2.2.2
 zipp==3.7.0
 spacy>=2.2.0,<3.0.0
 vaderSentiment==3.3.2
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz#egg=en_core_web_sm
 https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.4.1/en_core_web_lg-3.4.1.tar.gz#egg=en_core_web_lg
 numpy>=1.9.2
 Flask==2.2.2
